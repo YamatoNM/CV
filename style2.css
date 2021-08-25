@@ -51,7 +51,7 @@ li a:hover, .dropdown:hover .dropbtn {
 * {
    margin: 0;
    padding: 0;
-	font-family: Cursive;
+	font-family: 'Montserrat', sans-serif;
 }
 div.gallery {
 	margin-left:130px;
@@ -74,13 +74,13 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-		font-family: cursive;
+		font-family: 'Montserrat', sans-serif;
 		font-size:15px;
 }
 a{
 	color:black;
 	text-decoration:none;
-		font-family: cursive;
+	font-family: 'Montserrat', sans-serif;
 		font-size:15px;
 }
 .pressed-button {
