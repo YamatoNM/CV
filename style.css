@@ -51,7 +51,7 @@ li a:hover, .dropdown:hover .dropbtn {
 * {
    margin: 0;
    padding: 0;
-		font-family: Cursive;
+	font-family: 'Montserrat', sans-serif;
 		box-sizing: border-box;
 }
 .portfolio-wrap {
@@ -62,7 +62,8 @@ li a:hover, .dropdown:hover .dropbtn {
    flex-wrap: wrap;
 }
 .portfolio-item {
-   padding: 10px;
+   padding: 0px;
+	 height: 100%;
 }
 .portfolio-item a {
    display: block;
@@ -101,7 +102,7 @@ li a:hover, .dropdown:hover .dropbtn {
    font-weight: normal;
    display: table;
    margin: 0 auto;
-   padding: 0 10px;
+   padding: 0;
    position: relative;
 }
 .portfolio-heading h3:before, .portfolio-heading h3:after {
@@ -131,7 +132,7 @@ li a:hover, .dropdown:hover .dropbtn {
 .portfolio-item-inner li {
    position: relative;
    font-size: 12px;
-   padding: 10px 0;
+   padding: 0;
    margin-bottom: 4px;
 }
 .portfolio-item-inner li:after {
@@ -173,14 +174,13 @@ li a:hover, .dropdown:hover .dropbtn {
    }
 }
 .main{
-	font-family: Cursive;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 200%;
 }
 .main2{
-	font-family: Cursive;
+ font-family: 'Montserrat', sans-serif;
 	font-size: 200%;
 	text-align: center;
-	margin-left: 350%
 }
 .column {
   float: left;
@@ -194,6 +194,23 @@ li a:hover, .dropdown:hover .dropbtn {
   clear: both;
 }
 a.PS:hover{
-	background-color: #333;
-	
+	background-color: #333;	
+}
+
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+		background-color: #333;
+}
+
+div.all {
+    width: 100vw;
+    height: 100vh;
+}
+li.PerS{
+	float: center;
+	text-align: center;
+	margin-left: 50%; 
 }
